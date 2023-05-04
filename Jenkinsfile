@@ -1,4 +1,3 @@
-
 //DECLARATIVE PIPELINE
 pipeline {
     agent any
@@ -25,7 +24,7 @@ pipeline {
         }
     }   
     post {
-         always {
+        always {
             echo 'Im awesome. I run always'
                                                                                                                                   
         }
@@ -41,6 +40,5 @@ pipeline {
     }
     
                 
-
 }
 
